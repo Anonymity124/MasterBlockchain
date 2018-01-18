@@ -19,6 +19,7 @@
     - [第五章 钱包](https://github.com/zcc0721/MasterBlockchain/blob/master/ch05.md)
     - [第六章 交易]
         - [比特币交易](https://github.com/zcc0721/MasterBlockchain/blob/master/bitcoin-transaction.md)
+        - 以太坊交易
     - [第七章 高级交易和脚本](https://github.com/zcc0721/MasterBlockchain/blob/master/ch07.md)
     - [第八章 比特币网络](https://github.com/zcc0721/MasterBlockchain/blob/master/ch08.md)
     - [第九章 区块链](https://github.com/zcc0721/MasterBlockchain/blob/master/ch09.md)
@@ -34,3 +35,9 @@
     - [附录6 pycoin](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-pycoin.md)
     - [附录7 比特币浏览器命令](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-bx.md)
     - [附录8 染色币](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-colored_coins.md)
+
+---
+
+## 2018年1月18更新内容
+
+- 更新目录结构，添加以太坊交易的条目。

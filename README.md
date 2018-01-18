@@ -17,7 +17,8 @@
     - [第三章 比特币核心](https://github.com/zcc0721/MasterBlockchain/blob/master/ch03.md)
     - [第四章 密钥和地址](https://github.com/zcc0721/MasterBlockchain/blob/master/ch04.md)
     - [第五章 钱包](https://github.com/zcc0721/MasterBlockchain/blob/master/ch05.md)
-    - [第六章 交易](https://github.com/zcc0721/MasterBlockchain/blob/master/bitcoin-transaction.md)
+    - [第六章 交易]
+        - [比特币交易](https://github.com/zcc0721/MasterBlockchain/blob/master/bitcoin-transaction.md)
     - [第七章 高级交易和脚本](https://github.com/zcc0721/MasterBlockchain/blob/master/ch07.md)
     - [第八章 比特币网络](https://github.com/zcc0721/MasterBlockchain/blob/master/ch08.md)
     - [第九章 区块链](https://github.com/zcc0721/MasterBlockchain/blob/master/ch09.md)

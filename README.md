@@ -1,16 +1,12 @@
-## 前言
+# 目录
 
-本书改编自《精通比特币》中文第二版。原书地址：https://github.com/tianmingyun/MasterBitcoin2CN
-
----
-
-## 目录
-
-- [中文版序言](https://github.com/zcc0721/MasterBlockchain/blob/master/cn-preface.md)
-- [第二版更新内容](https://github.com/zcc0721/MasterBlockchain/blob/master/second_edition_changes.md)
-- [英文版序言](https://github.com/zcc0721/MasterBlockchain/blob/master/preface.md)
-- [词汇表](https://github.com/zcc0721/MasterBlockchain/blob/master/glossary.md)
-- [译文说明](https://github.com/zcc0721/MasterBlockchain/blob/master/trans-preface.md)
+- [前言](https://github.com/zcc0721/MasterBlockchain/blob/master/my-preface.md)
+- 《精通比特币》前言
+    - [中文版序言](https://github.com/zcc0721/MasterBlockchain/blob/master/cn-preface.md)
+    - [第二版更新内容](https://github.com/zcc0721/MasterBlockchain/blob/master/second_edition_changes.md)
+    - [英文版序言](https://github.com/zcc0721/MasterBlockchain/blob/master/preface.md)
+    - [词汇表](https://github.com/zcc0721/MasterBlockchain/blob/master/glossary.md)
+    - [译文说明](https://github.com/zcc0721/MasterBlockchain/blob/master/trans-preface.md)
 - 正文
     - [第一章 介绍](https://github.com/zcc0721/MasterBlockchain/blob/master/ch01.md)
     - [第二章 比特币原理](https://github.com/zcc0721/MasterBlockchain/blob/master/ch02.md)
@@ -38,6 +34,6 @@
 
 ---
 
-## 2018年1月18日更新内容
+# 2018年1月18日更新内容
 
 - 更新目录结构，添加以太坊交易的条目。

@@ -15,7 +15,7 @@
     - 地址
         - 比特币地址
         - 以太坊地址
-        - 黑洞地址
+        - [黑洞地址](https://github.com/zcc0721/MasterBlockchain/blob/master/black-hole-address.md)
     - [第五章 钱包](https://github.com/zcc0721/MasterBlockchain/blob/master/ch05.md)
     - 第六章 交易
         - [比特币交易](https://github.com/zcc0721/MasterBlockchain/blob/master/bitcoin-transaction.md)

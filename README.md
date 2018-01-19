@@ -22,6 +22,13 @@
     - [第十章 挖矿和共识](https://github.com/zcc0721/MasterBlockchain/blob/master/ch10.md)
     - [第十一章 比特币安全](https://github.com/zcc0721/MasterBlockchain/blob/master/ch11.md)
     - [第十二章 比特币应用](https://github.com/zcc0721/MasterBlockchain/blob/master/ch12.md)
+    - 挖矿算法
+        - 比特币挖矿算法SHA256
+        - 莱特币挖矿算法Scrypt
+        - 以太坊挖矿算法Ethash
+    - 分叉
+        - 软分叉
+        - 硬分叉
 - 附录
     - [附录1 比特币白皮书](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-bitcoinwhitepaper.md)
     - [附录2 交易脚本语言操作符，常量和符号](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-scriptops.md)

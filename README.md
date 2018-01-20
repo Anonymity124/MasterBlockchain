@@ -44,6 +44,7 @@
             - Zcash
     - 扩容
         - 比特币扩容
+            - [闪电网络](https://github.com/zcc0721/MasterBlockchain/blob/master/bitcoin-lightning-network.md)
         - 以太坊扩容
     - [安全问题](https://github.com/zcc0721/MasterBlockchain/blob/master/security-issue.md)
         - 51%攻击

@@ -10,7 +10,7 @@
         - [比特币地址](https://github.com/zcc0721/MasterBlockchain/blob/master/bitcoin-address.md)
         - 以太坊地址
         - [黑洞地址](https://github.com/zcc0721/MasterBlockchain/blob/master/black-hole-address.md)
-    - [钱包](https://github.com/zcc0721/MasterBlockchain/blob/master/ch05.md)
+    - [钱包](https://github.com/zcc0721/MasterBlockchain/blob/master/wallet.md)
     - 交易
         - [比特币交易](https://github.com/zcc0721/MasterBlockchain/blob/master/bitcoin-transaction.md)
             - [比特币高级交易和脚本](https://github.com/zcc0721/MasterBlockchain/blob/master/ch07.md)

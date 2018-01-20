@@ -60,14 +60,13 @@
     - DAG
         - IOTA
 - 附录
-    - [附录1 比特币白皮书](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-bitcoinwhitepaper.md)
-    - [附录2 交易脚本语言操作符，常量和符号](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-scriptops.md)
-    - [附录3 比特币改进建议（BIPs）](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-bips.md)
-    - [附录4 隔离见证](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-segwit.md)
-    - [附录5 Bitcore](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-bitcore.md)
-    - [附录6 pycoin](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-pycoin.md)
-    - [附录7 比特币浏览器命令](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-bx.md)
-    - [附录8 染色币](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-colored_coins.md)
+    - [比特币白皮书](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-bitcoinwhitepaper.md)
+    - [交易脚本语言操作符，常量和符号](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-scriptops.md)
+    - [隔离见证](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-segwit.md)
+    - [Bitcore](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-bitcore.md)
+    - [pycoin](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-pycoin.md)
+    - [比特币浏览器命令](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-bx.md)
+    - [染色币](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-colored_coins.md)
 
 ---
 

@@ -6,8 +6,8 @@
     - [比特币原理](https://github.com/zcc0721/MasterBlockchain/blob/master/ch02.md)
     - [比特币核心](https://github.com/zcc0721/MasterBlockchain/blob/master/ch03.md)
     - [区块链密码学基础](https://github.com/zcc0721/MasterBlockchain/blob/master/blockchain-cryptograph.md)
-    - [地址](https://github.com/zcc0721/MasterBlockchain/blob/master/ch04.md)
-        - 比特币地址
+    - 地址
+        - [比特币地址](https://github.com/zcc0721/MasterBlockchain/blob/master/bitcoin-address.md)
         - 以太坊地址
         - [黑洞地址](https://github.com/zcc0721/MasterBlockchain/blob/master/black-hole-address.md)
     - [钱包](https://github.com/zcc0721/MasterBlockchain/blob/master/ch05.md)

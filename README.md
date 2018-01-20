@@ -1,11 +1,6 @@
 # 目录
 
-- [前言](https://github.com/zcc0721/MasterBlockchain/blob/master/my-preface.md)
-- 《精通比特币》前言
-    - [中文版序言](https://github.com/zcc0721/MasterBlockchain/blob/master/cn-preface.md)
-    - [第二版更新内容](https://github.com/zcc0721/MasterBlockchain/blob/master/second_edition_changes.md)
-    - [英文版序言](https://github.com/zcc0721/MasterBlockchain/blob/master/preface.md)
-    - [译文说明](https://github.com/zcc0721/MasterBlockchain/blob/master/trans-preface.md)
+- [前言](https://github.com/zcc0721/MasterBlockchain/blob/master/preface.md)
 - 正文
     - [介绍](https://github.com/zcc0721/MasterBlockchain/blob/master/ch01.md)
     - [比特币原理](https://github.com/zcc0721/MasterBlockchain/blob/master/ch02.md)

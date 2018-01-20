@@ -45,7 +45,7 @@
     - 扩容
         - 比特币扩容
         - 以太坊扩容
-    - [安全威胁](https://github.com/zcc0721/MasterBlockchain/blob/master/ch11.md)
+    - [安全问题](https://github.com/zcc0721/MasterBlockchain/blob/master/security-issue.md)
         - 51%攻击
         - 重放攻击
     - DAG

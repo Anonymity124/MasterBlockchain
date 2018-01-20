@@ -44,8 +44,10 @@
             - Zcash
     - 扩容
         - 比特币扩容
+            - [隔离见证](https://github.com/zcc0721/MasterBlockchain/blob/master/segwit.md)
+            - [闪电网络](https://github.com/zcc0721/MasterBlockchain/blob/master/lightning-network.md)
         - 以太坊扩容
-    - [比特币闪电网络](https://github.com/zcc0721/MasterBlockchain/blob/master/bitcoin-lightning-network.md)
+            - 雷电网络
     - [安全问题](https://github.com/zcc0721/MasterBlockchain/blob/master/security-issue.md)
         - 51%攻击
         - 重放攻击
@@ -55,7 +57,6 @@
     - [词汇表](https://github.com/zcc0721/MasterBlockchain/blob/master/glossary.md)
     - [比特币白皮书](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-bitcoinwhitepaper.md)
     - [交易脚本语言操作符，常量和符号](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-scriptops.md)
-    - [隔离见证](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-segwit.md)
     - [Bitcore](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-bitcore.md)
     - [pycoin](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-pycoin.md)
     - [比特币浏览器命令](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-bx.md)

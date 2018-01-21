@@ -25,7 +25,7 @@
     - [挖矿](https://github.com/zcc0721/MasterBlockchain/blob/master/mining.md)
         - 挖矿算法
             - 比特币挖矿算法SHA256
-            - 莱特币挖矿算法Scrypt
+            - [莱特币挖矿算法Scrypt](https://github.com/zcc0721/MasterBlockchain/blob/master/litecoin-scrypt.md)
             - 以太坊挖矿算法Ethash
             - 比原链挖矿算法AIhash
         - 矿池

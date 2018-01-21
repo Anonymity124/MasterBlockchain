@@ -55,9 +55,9 @@
         - IOTA
 - 附录
     - [词汇表](https://github.com/zcc0721/MasterBlockchain/blob/master/glossary.md)
-    - [比特币白皮书](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-bitcoinwhitepaper.md)
-    - [交易脚本语言操作符，常量和符号](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-scriptops.md)
-    - [Bitcore](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-bitcore.md)
-    - [pycoin](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-pycoin.md)
-    - [比特币浏览器命令](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-bx.md)
-    - [染色币](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-colored_coins.md)
+    - [比特币白皮书](https://github.com/zcc0721/MasterBlockchain/blob/master/bitcoin-whitepaper.md)
+    - [交易脚本语言操作符，常量和符号](https://github.com/zcc0721/MasterBlockchain/blob/master/scriptops.md)
+    - [Bitcore](https://github.com/zcc0721/MasterBlockchain/blob/master/bitcore.md)
+    - [pycoin](https://github.com/zcc0721/MasterBlockchain/blob/master/pycoin.md)
+    - [比特币浏览器命令](https://github.com/zcc0721/MasterBlockchain/blob/master/bx.md)
+    - [染色币](https://github.com/zcc0721/MasterBlockchain/blob/master/colored-coin.md)

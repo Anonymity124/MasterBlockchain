@@ -28,6 +28,7 @@
             - [莱特币挖矿算法Scrypt](https://github.com/zcc0721/MasterBlockchain/blob/master/litecoin-mining-algorithm.md)
             - [以太坊挖矿算法Ethash](https://github.com/zcc0721/MasterBlockchain/blob/master/ethereum-mining-algorithm.md)
             - 比原链挖矿算法AIhash
+            - Filecoin挖矿算法
         - 矿池
     - 分叉
         - 软分叉

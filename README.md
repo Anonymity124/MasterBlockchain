@@ -48,11 +48,11 @@
             - komodo
             - CryptoNote
     - 扩容
+        - [隔离见证](https://github.com/zcc0721/MasterBlockchain/blob/master/segwit.md)
+        - [闪电网络](https://github.com/zcc0721/MasterBlockchain/blob/master/lightning-network.md)
+        - 雷电网络
         - 比特币扩容
-            - [隔离见证](https://github.com/zcc0721/MasterBlockchain/blob/master/segwit.md)
-            - [闪电网络](https://github.com/zcc0721/MasterBlockchain/blob/master/lightning-network.md)
         - 以太坊扩容
-            - 雷电网络
     - [安全问题](https://github.com/zcc0721/MasterBlockchain/blob/master/security-issue.md)
         - 51%攻击
         - 重放攻击

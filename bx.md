@@ -85,7 +85,7 @@ wrap-encode
 
 ```
 
-更多信息参见[Bitcoin Explorer homepage](#) 和 [Bitcoin Explorer user documentation](#)
+更多信息参见Bitcoin Explorer homepage和Bitcoin Explorer user documentation。
 
 bx命令使用示例
 
@@ -171,7 +171,6 @@ xpub6BH1zcTuktiFu43rUZ2gXqLgzu5F3tLEeTQ5t6iE3aQtM2VMTxMcyLN9fYHiGhGpQe9QQYmqL2eY
 
 $ bx hd-private --index 1 < account | bx hd-to-public
 xpub6BH1zcTuktiFx6CzhPbGjG3UYQ13WR16CmtbPiagEKpEVtpyjshWyMaMV1cn7nUPUkgQHPVXJVqsrA8xWbGQDhohEcDFTEYMvYzwRD7Juf8
-
 ```
 
 我们可以在确定性链中产生几乎无限数量的密钥，全部来源于单个种子。 这种技术用于许多钱包应用程序中以生成可以使用单个种子值进行备份和恢复的密钥。 每次创建一个新的密钥时，这比将其所有随机生成的密钥备份在一起更容易。
@@ -181,7 +180,6 @@ xpub6BH1zcTuktiFx6CzhPbGjG3UYQ13WR16CmtbPiagEKpEVtpyjshWyMaMV1cn7nUPUkgQHPVXJVqs
 ```
 $ bx hd-mnemonic < seed > words
 adore repeat vision worst especially veil inch woman cast recall dwell appreciate
-
 ```
 
 然后可以使用mnemonic-decode命令对种子进行解码：
@@ -189,7 +187,6 @@ adore repeat vision worst especially veil inch woman cast recall dwell appreciat
 ```
 $ bx mnemonic-decode < words
 eb68ee9f3df6bd4441a9feadec179ff1
-
 ```
 
 助记符编码可以使种子更容易记录甚至记住。

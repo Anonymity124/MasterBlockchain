@@ -16,13 +16,13 @@
 
 下图显示一系列通过双向支付的通道连接在一起形成闪电网络以支持一笔从Alice到Eric的付款展示了闪电网络中五名参与者，通过双向支付通道连接，可从Alice付款到Eric（路由支付通道（闪电网络））。
 
-[![](https://github.com/zcc0721/MasterBlockchain/raw/master/img/lightning-network-1.png)](https://github.com/zcc0721/MasterBlockchain/raw/master/img/lightning-network-1.png)
+![](https://github.com/zcc0721/MasterBlockchain/raw/master/img/lightning-network-1.png)
 
 Alice想要支付给Eric1个比特币。不过，Alice并未通过支付通道连接到Eric。 创建支付通道需要资金交易，而这笔交易必须首先提交给比特币区块链。 Alice不想打开一个新的支付通道并支出更多的手续费。有没有办法间接支付Eric？
 
 下图显示了通过在连接各方参与者的支付通道上通过一系列HTLC承诺将付款从Alice路由到Eric的逐步过程。
 
-[![](https://github.com/zcc0721/MasterBlockchain/raw/master/img/lightning-network-2.png)](https://github.com/zcc0721/MasterBlockchain/raw/master/img/lightning-network-2.png)
+![](https://github.com/zcc0721/MasterBlockchain/raw/master/img/lightning-network-2.png)
 
 Alice正在运行闪电网络（LN）节点，该节点正在跟踪其向Bob的付费通道，并且能够发现支付通道之间的路由。Alice的LN节点还具有通过互联网连接到Eric的LN节点的能力。 Eric的LN节点使用随机数生成器创建一个秘密R。Eric的节点没有向任何人泄漏这个秘密。相反，Eric的节点计算秘密R对应的哈希H，并将此哈希发送到Alice的节点（请参阅图12-10步骤1）。
 

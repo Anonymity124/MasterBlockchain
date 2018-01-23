@@ -30,7 +30,7 @@
             - 比原链挖矿算法AIhash
             - [Filecoin挖矿算法](https://github.com/zcc0721/MasterBlockchain/blob/master/filecoin-mining-algorithm.md)
         - 矿池
-    - 分叉
+    - [分叉](https://github.com/zcc0721/MasterBlockchain/blob/master/fork.md)
         - 软分叉
         - 硬分叉
     - 智能合约

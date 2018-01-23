@@ -14,13 +14,13 @@
 
 在这个例子中，我们有五个参与者：Alice, Bob, Carol, Diana, and Eric。这五名参与者已经彼此之间开设了支付通道。Alice和Bob有支付通道。Bob连接Carol，Carol连接到Diana，Diana连接Eric。为了简单起见，我们假设每个通道每个参与者都注资2个比特币资金，每个通道的总容量为4个比特币。
 
-下图12-9显示一系列通过双向支付的通道连接在一起形成闪电网络以支持一笔从Alice到Eric的付款展示了闪电网络中五名参与者，通过双向支付通道连接，可从Alice付款到Eric（路由支付通道（闪电网络））。
+下图显示一系列通过双向支付的通道连接在一起形成闪电网络以支持一笔从Alice到Eric的付款展示了闪电网络中五名参与者，通过双向支付通道连接，可从Alice付款到Eric（路由支付通道（闪电网络））。
 
 [![](https://github.com/zcc0721/MasterBlockchain/raw/master/img/lightning-network-1.png)](https://github.com/zcc0721/MasterBlockchain/raw/master/img/lightning-network-1.png)
 
 Alice想要支付给Eric1个比特币。不过，Alice并未通过支付通道连接到Eric。 创建支付通道需要资金交易，而这笔交易必须首先提交给比特币区块链。 Alice不想打开一个新的支付通道并支出更多的手续费。有没有办法间接支付Eric？
 
-下图12-10 显示了通过在连接各方参与者的支付通道上通过一系列HTLC承诺将付款从Alice路由到Eric的逐步过程。
+下图显示了通过在连接各方参与者的支付通道上通过一系列HTLC承诺将付款从Alice路由到Eric的逐步过程。
 
 [![](https://github.com/zcc0721/MasterBlockchain/raw/master/img/lightning-network-2.png)](https://github.com/zcc0721/MasterBlockchain/raw/master/img/lightning-network-2.png)
 

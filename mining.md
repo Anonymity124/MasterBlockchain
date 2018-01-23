@@ -136,13 +136,7 @@ Jing的挖矿节点维护了一个区块链的本地副本。当Alice买咖啡 �
 ```
 $ bitcoin-cli get blockhash 277316
 0000000000000001b6b9a13b095e96db41c4a928b97ef2d944a9b31b2cc7bdc4
-
 $ bitcoin-cli getblock 0000000000000001b6b9a13b095e96db41c4a928b97ef2d9\44a9b31b2cc7bdc4
-
-
-
-
-
 ```
 
 
@@ -794,11 +788,6 @@ target = coefficient \* 2^\(8 \* \(exponent – 3\)\)
 
 ```
 New Difficulty = Old Difficulty \* \(Actual Time of Last 2016 Blocks / 20160 minutes\)
-
-
-
-
-
 ```
 
 ​ 例10-13展示了比特币核心客户端中的难度调整代码。

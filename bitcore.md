@@ -107,6 +107,3 @@ peer.on('ready', function() {
 });
 peer.connect();
 ```
-
-
-

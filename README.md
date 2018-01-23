@@ -46,7 +46,6 @@
             - Dash（达世币）
             - Monero（门罗币）
             - komodo
-            - CryptoNote
     - 扩容
         - [隔离见证](https://github.com/zcc0721/MasterBlockchain/blob/master/segwit.md)
         - [闪电网络](https://github.com/zcc0721/MasterBlockchain/blob/master/lightning-network.md)

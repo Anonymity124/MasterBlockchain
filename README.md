@@ -15,6 +15,7 @@
         - [比特币简单交易](https://github.com/zcc0721/MasterBlockchain/blob/master/bitcoin-transaction.md)
             - [比特币高级交易和脚本](https://github.com/zcc0721/MasterBlockchain/blob/master/ch07.md)
         - 以太坊交易
+        - 交易的传播
     - [比特币网络](https://github.com/zcc0721/MasterBlockchain/blob/master/ch08.md)
     - [区块链结构](https://github.com/zcc0721/MasterBlockchain/blob/master/ch09.md)
     - [比特币应用](https://github.com/zcc0721/MasterBlockchain/blob/master/ch12.md)
@@ -48,10 +49,12 @@
             - komodo
     - 扩容
         - [隔离见证](https://github.com/zcc0721/MasterBlockchain/blob/master/segwit.md)
-        - [闪电网络](https://github.com/zcc0721/MasterBlockchain/blob/master/lightning-network.md)
-        - 雷电网络
         - 比特币扩容
+            - 线上扩容：大区块
+            - 线下扩容：[闪电网络](https://github.com/zcc0721/MasterBlockchain/blob/master/lightning-network.md)
         - 以太坊扩容
+            - 线上扩容：Casper
+            - 线下扩容：雷电网络
     - [安全问题](https://github.com/zcc0721/MasterBlockchain/blob/master/security-issue.md)
         - 51%攻击
         - 重放攻击

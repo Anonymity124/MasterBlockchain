@@ -2,7 +2,6 @@
 
 - [前言](https://github.com/zcc0721/MasterBlockchain/blob/master/preface.md)
 - 正文
-    - [介绍](https://github.com/zcc0721/MasterBlockchain/blob/master/ch01.md)
     - [比特币原理](https://github.com/zcc0721/MasterBlockchain/blob/master/ch02.md)
     - [比特币核心](https://github.com/zcc0721/MasterBlockchain/blob/master/ch03.md)
     - [区块链密码学基础](https://github.com/zcc0721/MasterBlockchain/blob/master/blockchain-cryptograph.md)

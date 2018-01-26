@@ -22,7 +22,7 @@ A = RIPEMD160(SHA256(K))
 
 ![图4-5从公钥生成比特币地址](http://upload-images.jianshu.io/upload_images/1785959-6fc43eee55666ff2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-### 4.2.1 Base58和Base58Check编码
+## 4.2.1 Base58和Base58Check编码
 
 为了更简洁方便地表示长串的数字，使用更少的符号，许多计算机系统会使用一种以数字和字母组成的大于十进制的表示法。例如，传统的十进制计数系统使用0-9十个数字，而十六进制系统使用了额外的 A-F 六个字母。一个同样的数字，它的十六进制表 示就会比十进制表示更短。甚至更加简洁，Base64使用了26个小写字母、26个大写字母、10个数字以及两个符号（例 如“+”和“/”），用于在电子邮件这样的基于文本的媒介中传输二进制数据。Base64通常用于编码邮件中的附件。Base58 是一种基于文本的二进制编码格式，用在比特币和其它的加密货币中。这种编码格式不仅实现了数据压缩，保持了易读 性，还具有错误诊断功能。Base58是Base64编码格式的子集，同样使用大小写字母和10个数字，但舍弃了一些容易错 读和在特定字体中容易混淆的字符。具体地，Base58不含Base64中的0（数字0）、O（大写字母o）、l（小写字母 L）、I（大写字母i），以及“+”和“/”两个字符。简而言之，Base58就是由不包括（0，O，l，I）的大小写字母和数字组成。
 
@@ -42,7 +42,7 @@ checksum = SHA256(SHA256(prefix+data))
 
 结果由三部分组成：前缀、数据和校验和。这个结果采用之前描述的Base58字母表编码。下图描述了Base58Check编 码的过程。
 
-![图4-6Base58Check编 码的过程](http://upload-images.jianshu.io/upload_images/1785959-fd3d820e5ba1474c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![图4-6Base58Check编码的过程](http://upload-images.jianshu.io/upload_images/1785959-fd3d820e5ba1474c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 在比特币中，大多数需要向用户展示的数据都使用Base58Check编码，可以实现数据压缩，易读而且有错误检验。 Base58Check编码中的版本前缀是用来创造易于辨别的格式，在Base58里的格式在Base58Check编码的有效载荷的开始包含了明确的属性。这些属性使用户可以轻松明确被编码的数据的类型以及如何使用它们。例如我们可以看到他们的不同，Base58Check编码的比特币地址是以1开头的，而Base58Check编码的私钥WIF是以5开头的。表4-1展示了一些版本前缀和他们对应的Base58格式。
 
@@ -212,7 +212,7 @@ link:code/key-to-address-ecc-example.py[]
 
 例4-6 上例输出如下：
 
-```
+```shell
 $ python key-to-address-ecc-example.py
 Private Key (hex) is:
  3aba4162c7251c891207b747840551a71939b0de081f85c4e44cf7c13e41daa6

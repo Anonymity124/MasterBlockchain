@@ -15,7 +15,9 @@
             - [比特币高级交易和脚本](https://github.com/zcc0721/MasterBlockchain/blob/master/ch07.md)
         - 以太坊交易
         - 交易的传播
-    - [比特币网络](https://github.com/zcc0721/MasterBlockchain/blob/master/ch08.md)
+    - 网络
+        - [比特币网络](https://github.com/zcc0721/MasterBlockchain/blob/master/ch08.md)
+    - 节点
     - [区块链结构](https://github.com/zcc0721/MasterBlockchain/blob/master/ch09.md)
     - [比特币应用](https://github.com/zcc0721/MasterBlockchain/blob/master/ch12.md)
     - 共识机制

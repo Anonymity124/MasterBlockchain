@@ -30,7 +30,7 @@ Copay钱包插件可以在[Colored Coins Copay Addon](http://coloredcoins.org/co
 
 最后，一些染色币启用分红，即允许按照拥有权成比例分配比特币付款给染色币资产的所有者。
 
-## 12.4.3 染色币交易
+## 染色币交易
 
 给染色币交易提供意义的元数据通常使用OP_RETURN操作码存储在其中一个输出中。不同颜色的硬币协议对OP_RETURN数据的内容使用不同的编码。包含OP_RETURN的输出称为*标记输出*。
 

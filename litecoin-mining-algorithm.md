@@ -1,16 +1,16 @@
 # 莱特币挖矿算法
 
-## Scrypt算法简介
+## 1. Scrypt算法简介
 
 莱特币采用的挖矿算法是Scrypt算法。第一个使用Scrypt算法的数字货币是Tenebrix，而后该算法被莱特币使用。莱特币创始人在莱特币创世帖中介绍了莱特币采用的共识机制，挖矿算法，发行总量，挖矿难度等相关重要信息。该帖中，李启威说明了莱特币所使用的挖矿算法为数字货币Tenebrix所使用的Scrypt算法，这也是一种符合PoW共识机制的算法。Scrypt算法过程中也需要计算哈希值，但是，Scrypt计算过程中需要使用较多的内存资源。
 
 其它使用Scrypt算法的数字货币还有数码币（DigitalCoin）、狗狗币（DogeCoin）、幸运币（LuckyCoin）、世界币（WorldCoin）等。
 
-## Scrypt算法过程
+## 2. Scrypt算法过程
 
 Scrypt算法使用的几个函数环环相扣，本节按函数从里到外的调用顺序描述。
 
-### Salsa20/8
+### 2.1. Salsa20/8
 
 ```c
 #define R(a,b) (((a) << (b)) | ((a) >> (32 - (b))))
@@ -41,7 +41,7 @@ void salsa20_word_specification(uint32 out[16],uint32 in[16])
 }
 ```
 
-### scryptBlockMix
+### 2.2. scryptBlockMix
 
 ```
    Parameters:
@@ -65,7 +65,7 @@ void salsa20_word_specification(uint32 out[16],uint32 in[16])
               Y[1], Y[3], ..., Y[2 * r - 1])
 ```
 
-### scryptROMix
+### 2.3. scryptROMix
 
 ```
    Input:
@@ -92,7 +92,7 @@ void salsa20_word_specification(uint32 out[16],uint32 in[16])
      4. B' = X
 ```
 
-### scrypt
+### 2.4. scrypt
 
 ```bash
    Input:
@@ -132,10 +132,12 @@ void salsa20_word_specification(uint32 out[16],uint32 in[16])
 
 因此，莱特币的区块头哈希值为powhash = scrypt(blockheader, blockheader, 1024, 1, 1, 32)。可以参考莱特币获取区块头哈希的Go语言版本[实现](https://github.com/ltcsuite/ltcd/blob/master/wire/blockheader.go#L69)。
 
-# 参考资料
+## 3. 参考资料
 
 - [Litecoin - a lite version of Bitcoin. Launched!](https://bitcointalk.org/index.php?topic=47417.3400)：莱特币创始人发表在bitcointalk.org上的帖子，因为莱特币没有白皮书，则莱特币创始人李启威（英文名字为Charlie lee）发表在bitcointalk.org上的帖子姑且算是个白皮书。
 - [Tenebrix, a CPU-friendly, GPU-hostile cryptocurrency](https://bitcointalk.org/index.php?topic=45667.msg544675#msg544675)：介绍Tenebrix的帖子。
-- http://www.tarsnap.com/scrypt.html：介绍Scrypt算法的主页。
-- https://datatracker.ietf.org/doc/rfc7914/?include_text=1：Scrypt算法的标准文档。
+- [http://www.tarsnap.com/scrypt.html](http://www.tarsnap.com/scrypt.html)：介绍Scrypt算法的主页。
+- [https://datatracker.ietf.org/doc/rfc7914/?include_text=1](https://datatracker.ietf.org/doc/rfc7914/?include_text=1)：Scrypt算法的标准文档。
 - [crypto/scrypt/scrypt.go](https://github.com/golang/crypto/blob/master/scrypt/scrypt.go)：Scrypt算法的Go语言实现代码。
+- [scrypt基于密码的密钥派生函数(译)](http://rossihwang.farbox.com/post/2014-03-25)
+- [Scrypt-wikipedia](https://en.wikipedia.org/wiki/Scrypt)：Scrypt算法的维基百科主页。

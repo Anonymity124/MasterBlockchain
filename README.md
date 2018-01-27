@@ -22,7 +22,7 @@
         - 以太坊节点
     - [区块链结构](https://github.com/zcc0721/MasterBlockchain/blob/master/ch09.md)
     - [比特币应用](https://github.com/zcc0721/MasterBlockchain/blob/master/ch12.md)
-    - 共识机制
+    - [共识机制](https://github.com/zcc0721/MasterBlockchain/blob/master/consensus-mechanism.md)
         - POW
         - POS
         - DPOS

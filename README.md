@@ -22,10 +22,11 @@
         - 以太坊节点
     - [区块链结构](https://github.com/zcc0721/MasterBlockchain/blob/master/ch09.md)
     - [比特币应用](https://github.com/zcc0721/MasterBlockchain/blob/master/ch12.md)
-    - [共识机制](https://github.com/zcc0721/MasterBlockchain/blob/master/consensus-mechanism.md)
+    - 共识机制
         - POW
         - POS
         - DPOS
+        - [主流区块链共识机制总结](https://github.com/zcc0721/MasterBlockchain/blob/master/consensus-mechanism-summary.md)
     - [挖矿](https://github.com/zcc0721/MasterBlockchain/blob/master/mining.md)
         - 挖矿算法
             - [比特币挖矿算法SHA256](https://github.com/zcc0721/MasterBlockchain/blob/master/bitcoin-mining-algorithm.md)

@@ -32,7 +32,6 @@
             - [比特币挖矿算法SHA256](https://github.com/zcc0721/MasterBlockchain/blob/master/bitcoin-mining-algorithm.md)
             - [莱特币挖矿算法Scrypt](https://github.com/zcc0721/MasterBlockchain/blob/master/litecoin-mining-algorithm.md)
             - [以太坊挖矿算法Ethash](https://github.com/zcc0721/MasterBlockchain/blob/master/ethereum-mining-algorithm.md)
-            - 比原链挖矿算法AIhash
             - [Filecoin挖矿算法](https://github.com/zcc0721/MasterBlockchain/blob/master/filecoin-mining-algorithm.md)
         - [矿池](https://github.com/zcc0721/MasterBlockchain/blob/master/mining-pool.md)
     - [分叉](https://github.com/zcc0721/MasterBlockchain/blob/master/fork.md)

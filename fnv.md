@@ -4,9 +4,11 @@ FNV算法属于非密码学哈希函数，它最初由Glenn Fowler和Kiem-Phong 
 
 FNV算法目前有三种，分别是FNV-1，FNV-1a和FNV-0，但是FNV-0算法已经被丢弃了。FNV算法的哈希结果有32、64、128、256、512和1024位等长度。如果需要哈希结果长度不属于以上任意一种，也可以采用根据[Changing the FNV hash size - xor-folding](http://www.isthe.com/chongo/tech/comp/fnv/#xor-fold)上面的指导进行变换得到。
 
-## 算法过程
+该算法以太坊在使用。
 
-### FNV-1
+## 1. 算法过程
+
+### 1.1. FNV-1
 
 FNV-1算法过程如下：
 
@@ -39,7 +41,7 @@ return hash
 
 也可以点击参考资料中的FNV函数Go代码更加深刻地理解上述计算过程。
 
-### FNV-1a
+### 1.2. FNV-1a
 
 FNV-1a算法过程如下：
 
@@ -53,7 +55,7 @@ return hash
 
 可以发现，FNV-1a算法只是将相乘和异或运算进行了顺序调换，其它过程和参数与FNV-1相同。
 
-### FNV-0
+### 1.3. FNV-0
 
 FNV-0算法过程如下：
 
@@ -65,7 +67,7 @@ for each octet_of_data to be hashed
 return hash
 ```
 
-## 参考资料
+## 2. 参考资料
 
 - [FNV Hash](http://www.isthe.com/chongo/tech/comp/fnv/)：详细介绍FNV算法的网站。在该网站上可以找到该算法的历史，应用以及源码等资料。
 - [Fowler–Noll–Vo hash function](https://en.wikipedia.org/wiki/Fowler%E2%80%93Noll%E2%80%93Vo_hash_function)：FNV算法的维基百科主页。

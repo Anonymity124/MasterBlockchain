@@ -4,7 +4,7 @@ FNV算法属于非密码学哈希函数，它最初由Glenn Fowler和Kiem-Phong 
 
 FNV算法目前有三种，分别是FNV-1，FNV-1a和FNV-0，但是FNV-0算法已经被丢弃了。FNV算法的哈希结果有32、64、128、256、512和1024位等长度。如果需要哈希结果长度不属于以上任意一种，也可以采用根据[Changing the FNV hash size - xor-folding](http://www.isthe.com/chongo/tech/comp/fnv/#xor-fold)上面的指导进行变换得到。
 
-该算法以太坊在使用。
+该算法在以太坊中使用。
 
 ## 1. 算法过程
 

@@ -85,7 +85,7 @@ LN节点之间的所有通信都是点对点加密的。 另外，节点有一�
 
 当然，如前所述，闪电网络协议不是实现路由支付通道的唯一方法。其他被提出的系统包括Tumblebit和Teechan。然而，在这个时候，闪电网络已经部署在testnet上了。几个不同的团队已经开发了正在竞争的LN实现，并且正在努力实现一个通用的互操作性标准（称为BOLT）。闪电网络很可能是第一个部署在生产实际中的路由支付通道网络。
 
-## 4. 参考资料
+## 4. 参考资料
 
 - [详解最近大热的闪电网络、雷电网络和CORDA](http://www.8btc.com/ln-rn-corda)：巴比特上一篇很好的研究闪电网络的文章。
 - [The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments](https://lightning.network/lightning-network-paper.pdf)：描述闪电网络的原始论文。

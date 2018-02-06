@@ -10,7 +10,7 @@ pycoin库支持Python 2（2.7.x）和Python 3（3.3之后），并附带一些�
 
 使用GPG和/ dev / random的默认熵源创建一个BIP-32密钥：
 
-```
+```shell
 $ ku create
 
 

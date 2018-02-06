@@ -60,12 +60,13 @@ link:code/addr.cpp[]
 
 例4-3.编译并运行addr代码
 
- Compile the addr.cpp code
+```shell
 $ g++ -o addr addr.cpp $(pkg-config --cflags --libs libbitcoin)
 Run the addr executable
 $ ./addr
 Public key: 0202a406624211f2abbdc68da3df929f938c3399dd79fac1b51b0e4ad1d26a47aa
 Address: 1PRTTaJesdNovgne6Ehcdu1fpEdX7913CK
+```
 
 ### 密钥的格式
 
@@ -384,36 +385,3 @@ Eugenia可以让捐款人捐款到她宣布的一个随机生成地址（例如�
 ![表4-8 生成匹配某随机地址的多个靓号](http://upload-images.jianshu.io/upload_images/1785959-4243cb78fd2b4bf3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 那靓号地址会不会增加安全性？如果Eugenia生成1Kids33q44erFfpeXrmDSz7zEqG2FesZEN的靓号地址，用户可能看到靓号图案的字母和一些字符在上面，例如在地址部分中注明了1Kids33。这样就会迫使攻击者生成至少6个字母相匹 配的的靓号地址（比之前多2个字符），就要花费比Eugenia多3364倍的努力。本质上，Eugenia付出的努力（或者靓号池付出的）迫使攻击者不得不生成更长的靓号图案。如果Eugenia花钱请矿池生成8个字符的靓号地址，攻击者将会被逼迫到10字符的境地，那将是个人电脑，甚至昂贵自定义靓号挖掘机或靓号池也无法生成。对Eugenia来说可承担的起支出，对攻击者来说则变成了无法承担支出，特别是如果欺诈的潜在回报不足以支付生成靓号地址所需的费用。
-
-### 纸钱包
-
-纸钱包是打印在纸张上的比特币私钥。有时纸钱包为了方便起见也包括对应的比特币地址，但这并不是必要的，因为地址可以从私钥中导出。纸钱包是一个非常有效的建立备份或者线下存储比特币（即冷存储）的方式。作为备份机制，一个纸钱包可以提供安全性，以防在电脑硬盘损坏、失窃或意外删除的情况下造成密钥的的丢失。作为一个冷存储的机制，如果纸钱包密钥在线下生成并永久不在电脑系统中存储，他们在应对黑客攻击，键盘记录器，或其他在线电脑威胁更有安全性。
-
-纸钱包有许多不同的形状，大小，和外观设计，但非常基本的原则是一个密钥和一个地址打印在纸张上。表4-14展现了纸钱包最基本的形式。
-
-表4-9 比特币纸钱包的私钥和公钥的打印形式
-
-![表4-9 比特币纸钱包的私钥和公钥的打印形式](http://upload-images.jianshu.io/upload_images/1785959-4eaf2c3a31d62c2e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-通过使用工具，就可以很容易地生成纸钱包，譬如使用bitaddress.org网站上的客户端Javascript生成器。这个页面包含所有生成密钥和纸钱包所必须代码，甚至在完全失去网络连接的情况下，也可以生成密钥和纸钱包。若要使用它，先将HTML页面保存在本地磁盘或外部U盘。从Internet网络断开，从浏览器中打开文件。更方便的，使用一个原始操作系统启动电脑，比如一 个光盘启动的Linux系统。任何在脱机情况下使用这个工具所生成的密钥，都可以通过USB线在本地打印机上打印出 来，从而制造了密钥只存在纸张上而从未存储在在线系统上的纸钱包。将这些纸钱包放置在防火保险柜内，发送比特币到 对应的比特币地址上，从而实现了一个简单但非常有效的冷存储解决方案。图4-8展示了通过bitaddress.org 生成的纸钱包。
-
-![图4-8展示了通过bitaddress.org 生成的纸钱包](http://upload-images.jianshu.io/upload_images/1785959-70c69724c6b7d805.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-这个简单的纸钱包系统的不足之处是那些被打印下来的密钥容易被盗窃。一个能够接近这些纸的小偷只需偷走纸或者用把拍摄纸上的密钥，就能控制被这些密钥锁定的比特币。一个更复杂的纸钱包存储系统使用BIP0038加密的私钥。打印在纸钱包上的这些私钥被其所有者记住的一个口令保护起来。没有口令，这些被加密过的密钥也是毫无用处的。但它们仍旧优于用口令保护，因为这些密钥从没有在线过，并且必须从保险箱或者其他物理的安全存储中导出。图4-9展示了通过bitaddress.org 生成的加密纸钱包。
-
-![图4-9展示了通过bitaddress.org 生成的加密纸钱包，密码：test](http://upload-images.jianshu.io/upload_images/1785959-ce1a7a9106d6606e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-**警告**虽然你可以多次存款到纸钱包中，但是你最好一次性提取里面所有的资金。因为如果你提取的金额少于其中的**总**金额的话，有些钱包可能会生成一个找零地址。并且，你所用的电脑可能被病毒感染，那么就有可能泄露私钥。一 次性提走所有余款可以减少私钥泄露的风险，如果你所需的金额比较少，那么请把余额发送到相同交易的一个新的纸钱包里。
-
-纸钱包有许多设计和大小，并有许多不同的特性。有些作为礼物送给他人，有季节性的主题，像圣诞节和新年主题。另 外一些则是设计保存在银行金库或通过某种方式隐藏私钥的保险箱内，或者用不透明的刮刮贴，或者折叠和防篡改的铝箔胶粘密封。图4-10至图4-12展示了几个不同安全和备份功能的纸钱包的例子。
-
-图4-10 通过bitcoinpaperwallet.com生成的、私钥写在折叠袋上的纸钱包
-
-![图4-10 通过bitcoinpaperwallet.com生成的、私钥写在折叠袋上的纸钱包](http://upload-images.jianshu.io/upload_images/1785959-ae0037e0c9b1513c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-图4-11 通过bitcoinpaperwallet.com 生成的、私钥被密封住的纸钱包， 其他设计有密钥和地址的额外副本，类似于票根形式的可以拆卸存根，让你可以存储多个副本以防火灾、洪水或其他自然灾害。
-
-![图4-11 通过bitcoinpaperwallet.com 生成的、私钥被密封住的纸钱包](http://upload-images.jianshu.io/upload_images/1785959-4dcae8d6eff650c4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-图4-12 在备份“存根”上有多个私钥副本的纸钱包
-![图4-12 在备份“存根”上有多个私钥副本的纸钱包](http://upload-images.jianshu.io/upload_images/1785959-37ca362234fe4cbc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

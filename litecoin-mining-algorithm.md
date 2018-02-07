@@ -1,5 +1,18 @@
 # 莱特币挖矿算法
 
+<!-- TOC -->
+
+- [莱特币挖矿算法](#%E8%8E%B1%E7%89%B9%E5%B8%81%E6%8C%96%E7%9F%BF%E7%AE%97%E6%B3%95)
+  - [1. Scrypt算法简介](#1-scrypt%E7%AE%97%E6%B3%95%E7%AE%80%E4%BB%8B)
+  - [2. Scrypt算法过程](#2-scrypt%E7%AE%97%E6%B3%95%E8%BF%87%E7%A8%8B)
+    - [2.1. Salsa20/8](#21-salsa208)
+    - [2.2. scryptBlockMix](#22-scryptblockmix)
+    - [2.3. scryptROMix](#23-scryptromix)
+    - [2.4. scrypt](#24-scrypt)
+  - [3. 参考资料](#3-%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99)
+
+<!-- /TOC -->
+
 ## 1. Scrypt算法简介
 
 莱特币采用的挖矿算法是Scrypt算法。第一个使用Scrypt算法的数字货币是Tenebrix，而后该算法被莱特币使用。莱特币创始人在莱特币创世帖中介绍了莱特币采用的共识机制，挖矿算法，发行总量，挖矿难度等相关重要信息。该帖中，李启威说明了莱特币所使用的挖矿算法为数字货币Tenebrix所使用的Scrypt算法，这也是一种符合PoW共识机制的算法。Scrypt算法过程中也需要计算哈希值，但是，Scrypt计算过程中需要使用较多的内存资源。

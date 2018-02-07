@@ -2,7 +2,6 @@
 
 - [前言](preface.md)
 - 正文
-    - [比特币原理](ch02.md)
     - [比特币核心](ch03.md)
     - [区块链密码学基础](blockchain-cryptograph.md)
         - [FNV哈希算法](fnv.md)

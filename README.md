@@ -1,7 +1,6 @@
 # 目录
 
 - [前言](preface.md)
-- [比特币核心](ch03.md)
 - [区块链密码学基础](blockchain-cryptograph.md)
     - [FNV哈希算法](fnv.md)
 - 地址
@@ -73,3 +72,4 @@
     - [pycoin](pycoin.md)
     - [比特币浏览器命令](bx.md)
     - [染色币](colored-coin.md)
+    - [比特币开发](bitcoin-develop.md)

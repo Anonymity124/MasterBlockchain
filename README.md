@@ -14,7 +14,7 @@
     - 以太坊交易
     - 交易的传播
 - 网络
-    - [比特币网络](bitcoin-network.md)
+    - [比特币网络](bitcoin-network.md)
 - 节点
     - [比特币节点](bitcoin-node.md)
     - 以太坊节点

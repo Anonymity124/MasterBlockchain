@@ -279,7 +279,7 @@ BIP0038加密方案是：输入一个比特币私钥，通常使用WIF编码过�
 
 ![表4-5 BIP0038加密私钥例子](http://upload-images.jianshu.io/upload_images/1785959-53ab728fe9ad49fc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-### 4.4.2 P2SH (Pay-to-Script Hash)和多重签名地址
+### P2SH (Pay-to-Script Hash)和多重签名地址
 
 正如我们所知，传统的比特币地址从数字1开头，来源于公钥，而公钥来源于私钥。虽然任何人都可以将比特币发送到 一个1开头的地址，但比特币只能在通过相应的私钥签名和公钥哈希值后才能消费。
 

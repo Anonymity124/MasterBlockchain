@@ -18,7 +18,7 @@
 - 节点
     - [比特币节点](bitcoin-node.md)
     - 以太坊节点
-- [区块链结构](ch09.md)
+- [比特币区块结构](bitcoin-block-struct.md)
 - 共识机制
     - POW
     - POS

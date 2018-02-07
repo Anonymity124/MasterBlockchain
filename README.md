@@ -10,12 +10,11 @@
 - [钱包](wallet.md)
 - 交易
     - 比特币交易
-        - [比特币简单交易](bitcoin-transaction.md)
-        - [比特币高级交易和脚本](ch07.md)
+        - [比特币交易](bitcoin-transaction.md)
     - 以太坊交易
     - 交易的传播
 - 网络
-    - [比特币网络](ch08.md)
+    - [比特币网络](bitcoin-network.md)
 - 节点
     - [比特币节点](bitcoin-node.md)
     - 以太坊节点

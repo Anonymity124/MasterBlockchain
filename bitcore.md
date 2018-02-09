@@ -23,7 +23,7 @@ NodeJS &gt;= 4.x 或者使用[hosted online playground](https://bitcore.io/playg
 
 如果使用NodeJS和节点REPL：
 
-```
+```shell
 $ npm install -g bitcore-lib bitcore-p2p
 $ NODE_PATH=$(npm list -g | head -1)/node_modules node
 ```
@@ -32,7 +32,7 @@ $ NODE_PATH=$(npm list -g | head -1)/node_modules node
 
 使用关联的私钥创建新的比特币地址：
 
-```
+```shell
 > bitcore = require('bitcore-lib')
 > privateKey = new bitcore.PrivateKey()
 > address = privateKey.toAddress().toString()
@@ -40,7 +40,7 @@ $ NODE_PATH=$(npm list -g | head -1)/node_modules node
 
 创建分层确定性私钥和地址：
 
-```
+```shell
 > hdPrivateKey = bitcore.HDPrivateKey()
 > hdPublicKey = bitcore.HDPublicKey(hdPrivateKey)
 > hdAddress = new bitcore.Address(hdPublicKey.publicKey).toString()
@@ -48,7 +48,7 @@ $ NODE_PATH=$(npm list -g | head -1)/node_modules node
 
 从UTXO创建和签署交易：
 
-```
+```shell
 > utxo = {
   txId: transaction id containing an unspent output,
   outputIndex: output indexi e.g. 0,
@@ -78,13 +78,13 @@ $ NODE_PATH=$(npm list -g | head -1)/node_modules node
 > rbfTx.serialize();
 ```
 
-将交易广播到比特币网络（注意：仅广播有效交易;请参阅[https://bitnodes.21.co/nodes](https://bitnodes.21.co/nodes)）：  
-将以下代码复制到名为broadcast.js的文件中。  
-tx和rbfTx变量分别是tx.serialize（）和rbfTx.serialize（）的输出。  
-为了更换费用，对等人必须支持bitcoind选项mempoolreplace并将其设置为1。  
+将交易广播到比特币网络（注意：仅广播有效交易;请参阅[https://bitnodes.21.co/nodes](https://bitnodes.21.co/nodes)）：
+将以下代码复制到名为broadcast.js的文件中。
+tx和rbfTx变量分别是tx.serialize（）和rbfTx.serialize（）的输出。
+为了更换费用，对等人必须支持bitcoind选项mempoolreplace并将其设置为1。
 运行文件节点broadcast.js：
 
-```
+```js
 var p2p = require('bitcore-p2p');
 var bitcore = require('bitcore-lib');
 var tx = new bitcore.Transaction('output from serialize function');

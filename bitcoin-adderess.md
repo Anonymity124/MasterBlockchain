@@ -112,8 +112,8 @@ Address: 1PRTTaJesdNovgne6Ehcdu1fpEdX7913CK
 ---------------|-------|---------------------------------------------------
 Raw            | 无    | 32字节
 Hex            | 无    | 64个十六进制值
-WIF            | 5     | Base58Check编码：带有128位和32位校验码版本前缀的Base58
-WIF-compressed | K或L  | 与WIF相同，编码前加入了0x01后缀
+WIF            | 5     | Base58Check编码：带有128位和32位校验码版本前缀的Base58
+WIF-compressed | K或L  | 与WIF相同，编码前加入了0x01后缀
 
 表4-3 示例：同样的私钥，不同的格式
 

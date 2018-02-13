@@ -310,7 +310,7 @@ BIP记录在GitHub上的版本化存储库中：https://github.com/bitcoin/bips�
 
 **UTXO (未花费交易输出):**
 
-​    UTXO是未花费交易输出，UTXO可以作为新交易的输入。 
+​    UTXO是未花费交易输出，UTXO可以作为新交易的输入。
 
  **钱包:**
 

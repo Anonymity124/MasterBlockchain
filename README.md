@@ -34,8 +34,8 @@
         - [Filecoin挖矿算法](filecoin-mining-algorithm.md)
     - [矿池](mining-pool.md)
 - [分叉](fork.md)
-    - 软分叉
-    - 硬分叉
+    - [软分叉](soft-fork.md)
+    - [硬分叉](hard-fork.md)
 - 智能合约
     - 智能合约平台
         - 以太坊

@@ -8,17 +8,19 @@
 <!-- /TOC -->
 
 椭圆曲线加密法是一种基于离散对数问题的非对称加密法，可以用对椭圆曲线上的点进行加法或乘法运算来表达。
+
 下图是一个椭圆曲线的示例，类似于比特币所用的曲线。
 
-![图4-2椭圆曲线的示例](http://upload-images.jianshu.io/upload_images/1785959-38f55b8ef0bdae9f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![img](https://github.com/zcc0721/MasterBlockchain/raw/master/img/ecc-1.png)
+
 比特币使用了secp256k1标准所定义的一种特殊的椭圆曲线和一系列数学常数。该标准由美国国家标准与技术研究院 （NIST）设立。secp256k1曲线由下述函数定义，该函数可产生一条椭圆曲线：
 
-![产生椭圆曲线的函数](http://upload-images.jianshu.io/upload_images/1785959-599a94d07fe149c2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![img](https://github.com/zcc0721/MasterBlockchain/raw/master/img/ecc-2.png)
 
 上述mod p（素数p取模）表明该曲线是在素数阶p的有限域内，也写作Fp，其中p = 2^256 – 2^32 – 2^9 – 2^8 – 2^7 – 2^6 – 2^4 – 1，这是个非常大的素数。
 因为这条曲线被定义在一个素数阶的有限域内，而不是定义在实数范围，它的函数图像看起来像分散在两个维度上的散落的点，因此很难可视化。不过，其中的数学原理与实数范围的椭圆曲线相似。作为一个例子，下图显示了在一个小了很多的素数阶17的有限域内的椭圆曲线，其形式为网格上的一系列散点。而secp256k1的比特币椭圆曲线可以被想象成一个极大的网格上一系列更为复杂的散点。
 
-![图4-3图为：椭圆曲线密码学F(p)上的椭圆曲线，其中p = 17](http://upload-images.jianshu.io/upload_images/1785959-8557f7751b57d1e4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![img](https://github.com/zcc0721/MasterBlockchain/raw/master/img/ecc-3.png)
 
 下面举一个例子，这是 secp256k1 曲线上的点P，其坐标为(x，y)。可以使用Python对其检验：
 
@@ -65,6 +67,6 @@ y = 07CF33DA18BD734C600B96A72BBC4749D5141C90EC8AC328AE52DDFE2E505BDB
 
 下图显示了在曲线上得到 G、2G、4G 的几何操作。
 
-![图4-4曲线上 G、2G、4G 的几何操作](http://upload-images.jianshu.io/upload_images/1785959-52ef6b8a628405a8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![img](https://github.com/zcc0721/MasterBlockchain/raw/master/img/ecc-4.png)
 
 **提示**大多数比特币程序使用OpenSSL加密库进行椭圆曲线计算。例如，调用EC_POINT_mul() 函数，可计算得到公钥。

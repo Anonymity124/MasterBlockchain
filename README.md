@@ -15,17 +15,12 @@
         - [比特币交易](bitcoin-transaction.md)
     - 以太坊交易
     - 交易的传播
-- 网络
-    - [比特币网络](bitcoin-network.md)
+- [比特币区块结构](bitcoin-block-struct.md)
 - 节点
     - [比特币节点](bitcoin-node.md)
     - 以太坊节点
-- [比特币区块结构](bitcoin-block-struct.md)
-- 共识机制
-    - POW
-    - POS
-    - DPOS
-    - [主流区块链共识机制总结](consensus-mechanism-summary.md)
+- 网络
+    - [比特币网络](bitcoin-network.md)
 - [挖矿](mining.md)
     - 挖矿算法
         - [比特币挖矿算法SHA256](bitcoin-mining-algorithm.md)
@@ -33,6 +28,11 @@
         - [以太坊挖矿算法Ethash](ethereum-mining-algorithm.md)
         - [Filecoin挖矿算法](filecoin-mining-algorithm.md)
     - [矿池](mining-pool.md)
+- 共识机制
+    - POW
+    - POS
+    - DPOS
+    - [主流区块链共识机制总结](consensus-mechanism-summary.md)
 - [分叉](fork.md)
     - [软分叉](soft-fork.md)
     - [硬分叉](hard-fork.md)

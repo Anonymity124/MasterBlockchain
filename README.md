@@ -74,6 +74,5 @@
     - [交易脚本语言操作符，常量和符号](scriptops.md)
     - [Bitcore](bitcore.md)
     - [pycoin](pycoin.md)
-    - [比特币浏览器命令](bx.md)
     - [染色币](colored-coin.md)
     - [比特币开发](bitcoin-develop.md)

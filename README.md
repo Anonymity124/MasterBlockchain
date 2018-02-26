@@ -66,8 +66,6 @@
     - 重放攻击
 - DAG
     - IOTA
-- 去中心化交易平台
-    - BTS
 - 附录
     - [词汇表](glossary.md)
     - [比特币白皮书](bitcoin-whitepaper.md)

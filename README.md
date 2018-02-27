@@ -29,7 +29,7 @@
         - [Filecoin挖矿算法](filecoin-mining-algorithm.md)
     - [矿池](mining-pool.md)
 - 共识机制
-    - POW
+    - [POW](pow.md)
     - POS
     - DPOS
     - [主流区块链共识机制总结](consensus-mechanism-summary.md)
@@ -64,8 +64,6 @@
 - 安全问题
     - 51%攻击
     - 重放攻击
-- DAG
-    - IOTA
 - 附录
     - [词汇表](glossary.md)
     - [比特币白皮书](bitcoin-whitepaper.md)

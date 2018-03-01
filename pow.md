@@ -1,4 +1,4 @@
-# POW共识机制
+#  POW共识机制
 
 <!-- TOC -->
 
@@ -6,6 +6,7 @@
     - [1. POW起源](#1-pow%E8%B5%B7%E6%BA%90)
     - [2. POW特点](#2-pow%E7%89%B9%E7%82%B9)
     - [3. POW挖矿算法种类](#3-pow%E6%8C%96%E7%9F%BF%E7%AE%97%E6%B3%95%E7%A7%8D%E7%B1%BB)
+    - [4. 参考资料](#4-%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99)
 
 <!-- /TOC -->
 
@@ -26,3 +27,8 @@ POW的特点：产生特定的数据结果困难，但是验证结果简单。
 
 - CPU消耗型：SHA256
 - 内存消耗型：Scrypt，Ethash
+
+## 4. 参考资料
+
+- [Proof-of-work system](https://en.wikipedia.org/wiki/Proof-of-work_system):维基百科中有关POW的介绍。
+- [Proof of work](https://en.bitcoin.it/wiki/Proof_of_work):比特币百科中关于POW的介绍。

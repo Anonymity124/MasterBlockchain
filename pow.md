@@ -23,8 +23,6 @@ POW的两个过程中，解决数学难题需要消耗一定的计算机资源�
 1993年，Cynthia Dwork和Moni NaorNaor在论文《Pricing via Processing or
 Combatting Junk Mail》中首次提出使用代价函数对抗垃圾邮件的攻击。而在1999年，Markus Jakobsson和Ari Juels才在论文中正式提出“Proof of Work”这个词。
 
-比特币白皮书中的POW算法灵感来自于Hashcash。Hashcash的主要目的也是为了预防垃圾邮件和DDOS攻击。
-
 ## 2. POW原理
 
 ## 3. POW特点

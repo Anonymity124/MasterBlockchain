@@ -24,5 +24,5 @@ POW的特点：产生特定的数据结果困难，但是验证结果简单。
 
 ## 3. POW挖矿算法种类
 
-CPU消耗型：SHA256
-内存消耗型：Scrypt，Ethash
+- CPU消耗型：SHA256
+- 内存消耗型：Scrypt，Ethash

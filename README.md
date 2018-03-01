@@ -30,7 +30,7 @@
     - [矿池](mining-pool.md)
 - 共识机制
     - [POW](pow.md)
-    - POS
+    - [POS](pos.md)
     - DPOS
     - [主流区块链共识机制总结](consensus-mechanism-summary.md)
 - [分叉](fork.md)

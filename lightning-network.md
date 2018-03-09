@@ -312,4 +312,4 @@ LN节点之间的所有通信都是点对点加密的。 另外，节点有一�
 
 - [详解最近大热的闪电网络、雷电网络和CORDA](http://www.8btc.com/ln-rn-corda)：巴比特上一篇很好的研究闪电网络的文章。
 - [The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments](https://lightning.network/lightning-network-paper.pdf)：描述闪电网络的原始论文。
-- [比特币闪电网络白皮书：可扩展的 off-chain 即时支付（中文）](http://8btc.com/doc-view-399.html)：对原始论文的中文翻译，有些部分有点生硬。
+- [比特币闪电网络白皮书：可扩展的 off-chain 即时支付（中文）](http://8btc.com/doc-view-399.html)：对原始论文的中文翻译，有些部分有点生硬。

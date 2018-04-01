@@ -25,11 +25,11 @@ Ethereum Classic    | 以太坊       | ETC        | POW         | 2015-07-30
 Hshare              |             | HSR        |             |
 ICON                |             | ICX        |             |
 IOTA                |             | MIOTA      |             |
-Komodo              | 科莫多币     | KMD        | DPOW        | 2009-01-04
+Komodo              | 科莫多币     | KMD        | DPOW        | 2016-09-14
 Lisk                |             | LSK        |             |
 Litecoin            | 莱特币       | LTC        | POW         | 2011-10-07
 Maker               |             | MKR        |             |
-Monero              |             | XMR        |             |
+Monero              | 门罗币       | XMR        | POW         | 2014-04-18
 Nano                |             | NANO       |             |
 NEM                 |             | XEM        |             |
 NEO                 |             | NEO        |             |
@@ -38,7 +38,7 @@ Ontology            |             | ONT        |             |
 Populous            |             | PPT        |             |
 Qtum                | 量子链       | QTUM       | POS         | 2017-09-06
 RChain              |             | RHOC       |             |
-Ripple              |             | XRP        |             |
+Ripple              | 瑞波币       | XRP        |             |
 Siacoin             |             | SC         |             |
 Status              |             | SNT        |             |
 Steem               |             | STEEM      |             |

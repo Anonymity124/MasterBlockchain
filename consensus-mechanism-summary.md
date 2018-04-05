@@ -19,7 +19,7 @@ DASH                | 达世币       | DASH       | POW         | 2014-01-19
 Decred              |             | DCR        |             |
 DigixDAO            |             | DGD        |             |
 Dogecoin            |             | DOGE       |             |
-EOS                 | 柚子币       | EOS        | DPOS        | 未上线
+EOS                 | 柚子币       | EOS        | BFT-DPOS    | 未上线
 Ethereum            | 以太坊       | ETH        | POW         | 2015-07-30
 Ethereum Classic    | 以太坊       | ETC        | POW         | 2015-07-30
 Hshare              |             | HSR        |             |

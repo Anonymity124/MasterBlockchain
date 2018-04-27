@@ -13,7 +13,7 @@ Bitcoin Diamond     | 比特钻石     | BCD        | POW         | 2009-01-03
 Bitcoin Gold        | 比特黄金     | BTG        | POW         | 2009-01-03
 BitShares           | 比特股       | BTS        |             |
 Bytecoin            |             | BCN        |             |
-Bytom               | 比原链       | BTM        | POW         | 2017-04-24
+Bytom               | 比原链       | BTM        | POW         | 2018-04-24
 Cardano             | 卡尔达诺     | ADA        | POS         | 2017-09-29
 DASH                | 达世币       | DASH       | POW         | 2014-01-19
 Decred              |             | DCR        |             |

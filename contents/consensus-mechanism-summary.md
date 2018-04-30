@@ -11,12 +11,12 @@ Bitcoin             | 比特币       | BTC        | POW         | 2009-01-03
 Bitcoin Cash        | 比特现金     | BCH        | POW         | 2009-01-03
 Bitcoin Diamond     | 比特钻石     | BCD        | POW         | 2009-01-03
 Bitcoin Gold        | 比特黄金     | BTG        | POW         | 2009-01-03
-BitShares           | 比特股       | BTS        |             |
+BitShares           | 比特股       | BTS        | DPOS        | 2014-07-19
 Bytecoin            |             | BCN        |             |
 Bytom               | 比原链       | BTM        | POW         | 2018-04-24
 Cardano             | 卡尔达诺     | ADA        | POS         | 2017-09-29
 DASH                | 达世币       | DASH       | POW         | 2014-01-19
-Decred              |             | DCR        |             |
+Decred              |             | DCR        | POW+POS     | 2016-02-01
 DigixDAO            |             | DGD        |             |
 Dogecoin            |             | DOGE       |             |
 EOS                 | 柚子币       | EOS        | BFT-DPOS    | 未上线
@@ -33,15 +33,17 @@ Monero              | 门罗币       | XMR        | POW         | 2014-04-18
 Nano                |             | NANO       |             |
 NEM                 |             | XEM        |             |
 NEO                 |             | NEO        |             |
+NXT                 | 未来币       | NXT        | POW+POS     | 2013-11-24
 OmiseGO             |             | OMG        |             |
 Ontology            |             | ONT        |             |
+Peercoin            | 点点币       | PPC        | POW+POS     | 2012-08-19
 Populous            |             | PPT        |             |
 Qtum                | 量子链       | QTUM       | POS         | 2017-09-06
 RChain              |             | RHOC       |             |
 Ripple              | 瑞波币       | XRP        |             |
 Siacoin             |             | SC         |             |
 Status              |             | SNT        |             |
-Steem               |             | STEEM      |             |
+Steem               |             | STEEM      | DPOS        |
 Stellar             |             | XLM        |             |
 Stratis             |             | STRAT      |             |
 Tether              |             | USDT       |             |

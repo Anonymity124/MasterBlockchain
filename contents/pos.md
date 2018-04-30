@@ -51,6 +51,7 @@ POW挖矿竞争的本质就是几个记账节点比拼实力，向全网证明�
 
 相比于POW，POS不用消耗大量的能源进行毫无意义的数学运算。
 
+
 ## 6. 参考资料
 
 - [Proof-of-stake](https://en.wikipedia.org/wiki/Proof-of-stake)：维基百科中关于POS的介绍。

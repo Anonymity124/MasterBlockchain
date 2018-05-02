@@ -1,41 +1,41 @@
 # 目录
 
-- [前言](preface.md)
-- [区块链密码学基础](blockchain-cryptograph.md)
-    - [非对称密码学](asymmetric-cryptography.md)
-    - [椭圆曲线密码学](elliptic-curve-cryptography.md)
-    - [FNV哈希算法](fnv.md)
+- [前言](contents/preface.md)
+- [区块链密码学基础](contents/blockchain-cryptograph.md)
+    - [非对称密码学](contents/asymmetric-cryptography.md)
+    - [椭圆曲线密码学](contents/elliptic-curve-cryptography.md)
+    - [FNV哈希算法](contents/fnv.md)
 - 地址
-    - [比特币地址](bitcoin-address.md)
+    - [比特币地址](contents/bitcoin-address.md)
     - 以太坊地址
-    - [黑洞地址](black-hole-address.md)
-- [钱包](wallet.md)
+    - [黑洞地址](contents/black-hole-address.md)
+- [钱包](contents/wallet.md)
 - 交易
     - 比特币交易
-        - [比特币交易](bitcoin-transaction.md)
+        - [比特币交易](contents/bitcoin-transaction.md)
     - 以太坊交易
     - 交易的传播
-- [比特币区块结构](bitcoin-block-struct.md)
+- [比特币区块结构](contents/bitcoin-block-struct.md)
 - 节点
-    - [比特币节点](bitcoin-node.md)
+    - [比特币节点](contents/bitcoin-node.md)
     - 以太坊节点
 - 网络
-    - [比特币网络](bitcoin-network.md)
-- [挖矿](mining.md)
+    - [比特币网络](contents/bitcoin-network.md)
+- [挖矿](contents/mining.md)
     - 挖矿算法
-        - [比特币挖矿算法SHA256](bitcoin-mining-algorithm.md)
-        - [莱特币挖矿算法Scrypt](litecoin-mining-algorithm.md)
-        - [以太坊挖矿算法Ethash](ethereum-mining-algorithm.md)
-        - [Filecoin挖矿算法](filecoin-mining-algorithm.md)
-    - [矿池](mining-pool.md)
+        - [比特币挖矿算法SHA256](contents/bitcoin-mining-algorithm.md)
+        - [莱特币挖矿算法Scrypt](contents/litecoin-mining-algorithm.md)
+        - [以太坊挖矿算法Ethash](contents/ethereum-mining-algorithm.md)
+        - [Filecoin挖矿算法](contents/filecoin-mining-algorithm.md)
+    - [矿池](contents/mining-pool.md)
 - 共识机制
-    - [POW](pow.md)
-    - [POS](pos.md)
+    - [POW](contents/pow.md)
+    - [POS](contents/pos.md)
     - DPOS
-    - [主流区块链共识机制总结](consensus-mechanism-summary.md)
-- [分叉](fork.md)
-    - [软分叉](soft-fork.md)
-    - [硬分叉](hard-fork.md)
+    - [主流区块链共识机制总结](contents/consensus-mechanism-summary.md)
+- [分叉](contents/fork.md)
+    - [软分叉](contents/soft-fork.md)
+    - [硬分叉](contents/hard-fork.md)
 - 智能合约
     - 智能合约平台
         - 以太坊
@@ -55,9 +55,9 @@
         - komodo
 - 可扩展性问题
     - 链下交易通道
-        - [闪电网络](lightning-network.md)
+        - [闪电网络](contents/lightning-network.md)
         - 雷电网络
-    - [隔离见证](segwit.md)
+    - [隔离见证](contents/segwit.md)
     - 分片
     - 链下计算
     - DAG
@@ -65,10 +65,10 @@
     - 51%攻击
     - 重放攻击
 - 附录
-    - [词汇表](glossary.md)
-    - [比特币白皮书](bitcoin-whitepaper.md)
-    - [交易脚本语言操作符，常量和符号](scriptops.md)
-    - [Bitcore](bitcore.md)
-    - [pycoin](pycoin.md)
-    - [染色币](colored-coin.md)
-    - [比特币开发](bitcoin-develop.md)
+    - [词汇表](contents/glossary.md)
+    - [比特币白皮书](contents/bitcoin-whitepaper.md)
+    - [交易脚本语言操作符，常量和符号](contents/scriptops.md)
+    - [Bitcore](contents/bitcore.md)
+    - [pycoin](contents/pycoin.md)
+    - [染色币](contents/colored-coin.md)
+    - [比特币开发](contents/bitcoin-develop.md)

@@ -1,17 +1,13 @@
-# 比特币节点
+比特币节点
+=========
 
-<!-- TOC -->
-
-- [比特币节点](#%E6%AF%94%E7%89%B9%E5%B8%81%E8%8A%82%E7%82%B9)
-    - [1. 全节点](#1-%E5%85%A8%E8%8A%82%E7%82%B9)
-        - [1.1. 交换“库存清单”](#11-%E4%BA%A4%E6%8D%A2%E2%80%9C%E5%BA%93%E5%AD%98%E6%B8%85%E5%8D%95%E2%80%9D)
-    - [2. 简易支付验证(Simplified Payment Verification (SPV))节点](#2-%E7%AE%80%E6%98%93%E6%94%AF%E4%BB%98%E9%AA%8C%E8%AF%81simplified-payment-verification-spv%E8%8A%82%E7%82%B9)
-        - [2.1. Bloom过滤器](#21-bloom%E8%BF%87%E6%BB%A4%E5%99%A8)
-        - [2.2. Bloom过滤器如何工作](#22-bloom%E8%BF%87%E6%BB%A4%E5%99%A8%E5%A6%82%E4%BD%95%E5%B7%A5%E4%BD%9C)
-        - [2.3. SPV节点如何使用Bloom过滤器](#23-spv%E8%8A%82%E7%82%B9%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8bloom%E8%BF%87%E6%BB%A4%E5%99%A8)
-        - [2.4. SPV节点和隐私](#24-spv%E8%8A%82%E7%82%B9%E5%92%8C%E9%9A%90%E7%A7%81)
-
-<!-- /TOC -->
+- [1. 全节点](#1-全节点)
+    - [1.1. 交换“库存清单”](#11-交换库存清单)
+- [2. 简易支付验证(Simplified Payment Verification (SPV))节点](#2-简易支付验证simplified-payment-verification-spv节点)
+    - [2.1. Bloom过滤器](#21-bloom过滤器)
+    - [2.2. Bloom过滤器如何工作](#22-bloom过滤器如何工作)
+    - [2.3. SPV节点如何使用Bloom过滤器](#23-spv节点如何使用bloom过滤器)
+    - [2.4. SPV节点和隐私](#24-spv节点和隐私)
 
 比特币节点有多种类型，包括全节点，SPV节点，轻节点等等。
 

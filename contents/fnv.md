@@ -4,7 +4,7 @@
     - [1.1. FNV-1](#11-fnv-1)
     - [1.2. FNV-1a](#12-fnv-1a)
     - [1.3. FNV-0](#13-fnv-0)
-- [2. 参考资料](#2-参考资料)
+- [参考资料](#参考资料)
 
 FNV算法属于非密码学哈希函数，它最初由Glenn Fowler和Kiem-Phong Vo于1991年在IEEE POSIX P1003.2上首先提出，最后由Landon Curt Noll 完善，故该算法以三人姓的首字母命名。
 
@@ -18,7 +18,7 @@ FNV算法目前有三种，分别是FNV-1，FNV-1a和FNV-0，但是FNV-0算法�
 
 FNV-1算法过程如下：
 
-```
+```txt
 hash = offset_basis
 for each octet_of_data to be hashed
     hash = hash * FNV_prime
@@ -35,7 +35,7 @@ return hash
 - 算法的相乘部分，因为hash类型是32位无符号整型，故相乘结果需要mod 2^32；
 - 算法的异或部分，octet_of_data为32位值的低8位，其它三个字节不进行异或运算。
 
-举例：
+**举例:**
 
 输入“V”，对应的十六进制值为0x56，输出32位的FNV hash值为0x050c5d49。可以使用[在线工具](https://fnvhash.github.io/fnv-calculator-online/)得到结果。
 
@@ -51,7 +51,7 @@ return hash
 
 FNV-1a算法过程如下：
 
-```
+```txt
 hash = offset_basis
 for each octet_of_data to be hashed
     hash = hash xor octet_of_data
@@ -65,7 +65,7 @@ return hash
 
 FNV-0算法过程如下：
 
-```
+```txt
 hash = 0
 for each octet_of_data to be hashed
     hash = hash * FNV_prime
@@ -73,7 +73,7 @@ for each octet_of_data to be hashed
 return hash
 ```
 
-## 2. 参考资料
+## 参考资料
 
 - [FNV Hash](http://www.isthe.com/chongo/tech/comp/fnv/)：详细介绍FNV算法的网站。在该网站上可以找到该算法的历史，应用以及源码等资料。
 - [Fowler–Noll–Vo hash function](https://en.wikipedia.org/wiki/Fowler%E2%80%93Noll%E2%80%93Vo_hash_function)：FNV算法的维基百科主页。

@@ -113,42 +113,42 @@ $ ku P:foo -P -j
 
 公共BIP32密钥：
 
-```
+```bash
 $ ku -w -P P:foo
 xpub661MyMwAqRbcFVF9ULcqLdsEa5WnCCugQAcgNd9iEMQ31tgH6u4DLQWoQayvtSVYFvXz2vPPpbXE1qpjoUFidhjFj82pVShWu9curWmb2zy
 ```
 
 生成子项：
 
-```
+```bash
 $ ku -w -s3/2 P:foo
 xprv9wTErTSkjVyJa1v4cUTFMFkWMe5eu8ErbQcs9xajnsUzCBT7ykHAwdrxvG3g3f6BFk7ms5hHBvmbdutNmyg6iogWKxx6mefEw4M8EroLgKj
 ```
 
 硬化子键：
 
-```
+```bash
 $ ku -w -s3/2H P:foo
 xprv9wTErTSu5AWGkDeUPmqBcbZWX1xq85ZNX9iQRQW9DXwygFp7iRGJo79dsVctcsCHsnZ3XU3DhsuaGZbDh8iDkBN45k67UKsJUXM1JfRCdn1
 ```
 
 WIF:
 
-```
+```bash
 $ ku -W P:foo
 L26c3H6jEPVSqAr1usXUp9qtQJw6NHgApq6Ls4ncyqtsvcq2MwKH
 ```
 
 地址：
 
-```
+```bash
 $ ku -a P:foo
 19Vqc8uLTfUonmxUEZac7fz1M5c5ZZbAii
 ```
 
 生成一堆子项：
 
-```
+```bash
 $ ku P:foo -s 0/0-5 -w
 xprv9xWkBDfyBXmZjBG9EiXBpy67KK72fphUp9utJokEBFtjsjiuKUUDF5V3TU8U8cDzytqYnSekc8bYuJS8G3bhXxKWB89Ggn2dzLcoJsuEdRK
 xprv9xWkBDfyBXmZnzKf3bAGifK593gT7WJZPnYAmvc77gUQVej5QHckc5Adtwxa28ACmANi9XhCrRvtFqQcUxt8rUgFz3souMiDdWxJDZnQxzx
